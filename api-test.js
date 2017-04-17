@@ -10,7 +10,7 @@ let options = {
 
 if (process.env.http_proxy) {
   console.log('contentful management api is using http_proxy');
-  options.agent = new httpsProxyAgent(process.env.https_proxy);
+  options.httpsAgent = new httpsProxyAgent(process.env.https_proxy);
 }
 
 let client = cm.createClient(options);
