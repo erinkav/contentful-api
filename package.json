@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "contentful-management": "^3.3.4",
+    "contentful-management": "^v3.4.0",
     "https-proxy-agent": "^1.0.0"
   }
 }
